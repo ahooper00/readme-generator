@@ -2,15 +2,15 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license === "Apache") {
-    return '![Apache] (https://badgen.net//github/license/micromatch/micromatch) (https://www.apache.org/licenses/LICENSE-2.0)';
+    return '![Apache](https://badgen.net//github/license/micromatch/micromatch) (https://www.apache.org/licenses/LICENSE-2.0)';
   } else if (license === 'MIT') {
-    return '![MIT] (https://badgen.net//github/license/micromatch/micromatch) (https://opensource.org/licenses/MIT)';
+    return '![MIT](https://badgen.net//github/license/micromatch/micromatch) (https://opensource.org/licenses/MIT)';
   } else if (license === 'GNU GPLv3') {
-    return '![GNU GPLv3] (https://badgen.net//github/license/micromatch/micromatch) (https://www.gnu.org/licenses/gpl-3.0.en.html)';
+    return '![GNU GPLv3](https://badgen.net//github/license/micromatch/micromatch) (https://www.gnu.org/licenses/gpl-3.0.en.html)';
   } else if (license === 'GNU AGPLv3') {
-    return '![GNU AGPLv3] (https://badgen.net//github/license/micromatch/micromatch) (https://www.gnu.org/licenses/agpl-3.0.en.html)';
+    return '![GNU AGPLv3](https://badgen.net//github/license/micromatch/micromatch) (https://www.gnu.org/licenses/agpl-3.0.en.html)';
   } else if (license === 'Mozilla Public') {
-    return '![Mozilla Public] (https://badgen.net//github/license/micromatch/micromatch) (https://www.mozilla.org/en-US/MPL)';
+    return '![Mozilla Public](https://badgen.net//github/license/micromatch/micromatch) (https://www.mozilla.org/en-US/MPL)';
   } else {
     return 'No license selected';
   }
