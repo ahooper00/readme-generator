@@ -64,7 +64,6 @@ function writeToFile(data) {
 function init() {
     inquirer.prompt(questions).then((answers) => {
         const markdown = generateMarkdown(answers);
-        console.log(markdown);
         writeToFile(markdown);
     });
 }
